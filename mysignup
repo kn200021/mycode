@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+
+<html>
+<head> 
+
+
+
+
+
+
+<title>Sign up</title>  		
+</head>
+<body style="background-color:gray;">
+
+
+<div style="background-color:white; height:650px; width:400px;border-radius:10px; margin:auto;">
+
+<div style="text-align:center;" >
+
+<h1 style="padding-top:20px;">Create an account</h1>
+<p >Already have an account? <a href="signin.html" style="text-decoration:none;">Sign In</a></p>
+
+
+</div>
+
+<br><br>
+
+<form method="POST" action="signup.php">
+
+<div style="margin-left:10px;">
+
+Email
+<br><br>
+<input type="email" name="email" style="height:20px;width:350px;outline:none;border:none; border-bottom:1px solid blue;margin-left:10px;" >
+
+
+</div>
+
+<br><br>
+
+<div style="margin-left:10px;">
+
+Password 
+<br><br>
+<input type="password" name="password" style="height:20px;width:350px;outline:none;border:none; border-bottom:1px solid blue;"" >
+
+</div>
+
+<br><br>
+
+<div style="margin-left:10px;">
+
+First Name 
+<br><br>
+<input type="text" name="firstname" style="height:20px;width:350px;outline:none;border:none; border-bottom:1px solid blue;"">
+
+</div>
+
+<br><br>
+
+<div style="margin-left:10px;">
+
+Last Name 
+<br><br>
+<input type="text" name="lastname" style="height:20px;width:350px;outline:none;border:none; border-bottom:1px solid blue;"" >
+
+</div> 
+
+<br><br>
+ <br><br>
+
+<div style="text-align:center;" >
+
+<input type="submit" value="Create an account" style="height:40px; width:170px; border-radius:10px; background-color:#42b72a;color:white; border:none;"> 
+
+</div> </form>
+</div> 
+
+<div style="margin-left:1100px;">
+
+ <a href="https://www.facebook.com target="_new"><img src="content/icon/fb.png"</a>
+ <a href="https://www.instagram.com"><img src="content/icon/insta.png"></a>
+<a href="https://www.linkedin.com"><img src="content/icon/linkd.png"></a>
+<a href="https://www.twitter.com"><img src="content/icon/tw.png"></a>
+
+
+</div>
+
+
+
+
+</body>
